@@ -6,9 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock Paper Scissors</title>
     <script src="script.js"></script>
-    <iframe name="result" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" frameborder="0">
+    <iframe name="result" sandbox="allow-modals allow-forms allow-popups allow-scripts allow-same-origin" frameborder="0"></iframe>
 </head>
-<body>
-    
+<body style="background-color: #a4eaea;">
+    <button onclick="playRound('rock')">
+        <img src="./img/rock.png" alt="Rock">
+    </button>
+    <button onclick="playRound('paper')">
+        <img src="./img/paper.png" alt="Paper">
+    </button>
+    <button onclick="playRound('scissors')">
+        <img src="./img/scissors.png" alt="Scissiors">
+    </button>
+    <div>Score:</div>    
 </body>
 </html>

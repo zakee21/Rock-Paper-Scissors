@@ -10,11 +10,11 @@ function getComputerChoice() {
     }
 
 //function to play one round of rock, paper, scissors.
-function playRound() {
+function playRound(userSelection) {
 
-//User selects rock, paper or scissors, case instensitive
+/*User selects rock, paper or scissors, case instensitive
     const choice = prompt("Enter your choice: ");
-    const userSelection = choice.toLowerCase(); 
+    const userSelection = choice.toLowerCase();*/
     console.log("Your Selection: " + userSelection);
 
 //Obtain computers selection.
@@ -49,7 +49,8 @@ function playRound() {
 } 
 
 //play 5 rounds of rock, paper, scissors and display score results and whether the use wins, loses, or if it is a tie game.
-function game(){
+//removed this for the new ui-rps branch of rock papper scissors repo.
+/*function game(){
     for(let i = 0; i < 5; i++) {
         playRound(i);
     }
@@ -66,4 +67,4 @@ function game(){
 }
 
 //invoke function to start full game
-game();
+game();*/
