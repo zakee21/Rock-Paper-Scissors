@@ -60,6 +60,6 @@ function playRound(userSelection) {
         document.querySelector('#roundResult').textContent = "YOU WIN THE GAME!";
     }
     else if (compScore >= 5) {
-        document.querySelector('#roundResult').textContent = "YOU WIN THE GAME!";
+        document.querySelector('#roundResult').textContent = "YOU LOST THE GAME!";
     }
 } 
